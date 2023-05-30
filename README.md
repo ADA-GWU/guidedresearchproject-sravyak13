@@ -1,4 +1,4 @@
-<h2Building a GUI for Unix Commands Execution on MacOS</h2> 
+<h2>Building a GUI for Unix Commands Execution on MacOS</h2> 
 
 Sravya Kuchipudi (G43099352)
 
