@@ -6,4 +6,6 @@ Sravya Kuchipudi (G43099352)
 * papers/ - all the papers that have been analyzed are stored here <br>
 * data/ - any data used for the experiments and analysis is stored here <br>
 * presentations/ - presentations are stored here <br>
-* reports/ - all reports are stored here, named as report_DATE.pdf </p>
+* reports/ - all reports are stored here, named as report_DATE.pdf <br>
+* reviews/ - all reviews are stored here in respective folders, named as Review_Date_SubmitterName.pdf <br>
+</p>
