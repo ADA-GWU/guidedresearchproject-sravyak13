@@ -8,5 +8,5 @@ Sravya Kuchipudi (G43099352)
 * presentations/ - presentations are stored here <br>
 * reports/ - all reports are stored here, named as report_DATE.pdf <br>
 * reviews/ - all reviews are stored here in respective folders, named as Review_Date_SubmitterName.pdf <br>
-** reviews/reviewer - holds the reviews that I was reviewing <br>
-** reviews/submitter - holds the reviews that I am receiving </p>
+** reviews/reviewer/ - holds the reviews that I was reviewing <br>
+** reviews/submitter/ - holds the reviews that I am receiving </p>
