@@ -1,6 +1,6 @@
 <h2>Building a GUI for Unix Commands Execution on MacOS</h2> 
 
-Sravya Kuchipudi (GWID: G43099352)
+Sravya Kuchipudi (GWID: G43099352) <br>
 
 <p>Outline of Folders <br>
 <ol>
