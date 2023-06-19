@@ -6,10 +6,10 @@ Sravya Kuchipudi (GWID: G43099352) <br>
 <ul>
   <li>data/ - any data used for the experiments and analysis is stored here</li>
   <li>papers/ - all the papers that have been analyzed are stored here
-    <ol>
+    <ul>
       <li>papers/articles/ - holds the articles that were referenced</li>
       <li>papers/textbooks/ - holds the textbooks that were referenced</li>
-    </ol>
+    </ul>
   </li>
   <li>presentations/ - presentations are stored here</li>
   <li>reports/ - all reports are stored here, named as report_DATE.pdf</li>
