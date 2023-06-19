@@ -1,8 +1,8 @@
 <h1>Building a GUI for Unix Commands Execution on MacOS</h1> 
 
-Sravya Kuchipudi (GWID: G43099352) <br>
+<strong>Sravya Kuchipudi (GWID: G43099352)</strong> <br>
 
-<h3>Outline of Folders</h3> 
+<h2>Outline of Folders</h2> 
 <ul>
   <li>data/ - any data used for the experiments and analysis is stored here</li>
   <li>papers/ - all the papers that have been analyzed are stored here
