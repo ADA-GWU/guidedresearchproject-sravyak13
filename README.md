@@ -3,7 +3,7 @@
 Sravya Kuchipudi (GWID: G43099352) <br>
 
 <h3>Outline of Folders</h3> 
-<ol>
+<ul>
   <li>data/ - any data used for the experiments and analysis is stored here</li>
   <li>papers/ - all the papers that have been analyzed are stored here
     <ol>
@@ -19,4 +19,4 @@ Sravya Kuchipudi (GWID: G43099352) <br>
       <li>reviews/submitter/ - holds the reviews that I am receiving</li>
     </ol>
   </li>
-</ol>
+</ul>
