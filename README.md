@@ -14,9 +14,9 @@ Sravya Kuchipudi (GWID: G43099352) <br>
   <li>presentations/ - presentations are stored here</li>
   <li>reports/ - all reports are stored here, named as report_DATE.pdf</li>
   <li>reviews/ - all reviews are stored here in respective folders, named as Review_Date_SubmitterName.pdf
-    <ol>
+    <ul>
       <li>reviews/reviewer/ - holds the reviews that I was reviewing</li>
       <li>reviews/submitter/ - holds the reviews that I am receiving</li>
-    </ol>
+    </ul>
   </li>
 </ul>
