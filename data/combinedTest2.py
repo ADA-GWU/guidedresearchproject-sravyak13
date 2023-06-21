@@ -43,5 +43,5 @@ while True:
         output = run_command(command, arguments)
         print(f'$ {command} {arguments}')
         print(output)
-
+        
 window.close()
