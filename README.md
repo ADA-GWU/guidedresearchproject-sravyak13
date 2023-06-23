@@ -1,6 +1,9 @@
 <h1>Building a GUI for Unix Commands Execution on MacOS</h1> 
 <em>Sravya Kuchipudi (GWID: G43099352)</em> <br>
 
+The goal of this project is to provide a straightforward graphical user interface (GUI) that enables users to choose Unix commands from menus, enter the required parameters, run the commands, and show the results. This GUI will offer a simple and user-friendly alternative for MacOS's command prompt for executing Unix commands.
+
+
 <h2>Outline of Folders</h2> 
 <ul>
   <li>data/ - any data used for the experiments and analysis is stored here</li>
