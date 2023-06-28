@@ -40,29 +40,23 @@ def show_command_info():
     command_info_window = tk.Toplevel(root)
     command_info_window.title('Command Information')
 
-    # Content Frame
     content_frame = ttk.Frame(command_info_window)
     content_frame.pack(padx=20, pady=20)
 
-    # Command Info Label
     command_info_label = ttk.Label(content_frame, text='Command Information:', font=('SF Pro', 12, 'bold'))
     command_info_label.pack(pady=(0, 10))
 
-    # Command Info Text
     command_info_text = tk.Text(content_frame, width=60, height=10, font=('SF Pro', 12))
     command_info_text.pack()
 
-    # Populate Command Info Text
     for command, description in commands.items():
         command_info_text.insert(tk.END, f'{command}: {description}\n')
 
-    # Disable text editing
     command_info_text.configure(state='disabled')
 
 root = tk.Tk()
 root.title('Unix Commands GUI')
 
-# Styling
 root.option_add('*TCombobox*Listbox.font', ('SF Pro', 10))
 root.option_add('*TCombobox*Listbox.selectBackground', '#f2c949')
 root.option_add('*TCombobox*Listbox.selectForeground', 'black')
@@ -72,36 +66,28 @@ style.configure('TLabel', font=('SF Pro', 12))
 style.configure('TButton', font=('SF Pro', 12))
 style.configure('TCombobox', font=('SF Pro', 12))
 
-# Content Frame
 content_frame = ttk.Frame(root)
 content_frame.pack(padx=20, pady=20)
 
-# Command Label
 command_label = ttk.Label(content_frame, text='Command:')
 command_label.grid(row=0, column=0, sticky=tk.W)
 
-# Command Combobox
 command_combo = ttk.Combobox(content_frame, values=list(commands.keys()), state='readonly', width=30)
 command_combo.grid(row=0, column=1, padx=5, pady=5)
 command_combo.bind('<<ComboboxSelected>>', on_command_change)
 
-# Arguments Label
 arguments_label = ttk.Label(content_frame, text='Arguments:')
 arguments_label.grid(row=1, column=0, sticky=tk.W)
 
-# Arguments Entry
 arguments_entry = ttk.Entry(content_frame, width=30)
 arguments_entry.grid(row=1, column=1, padx=5, pady=5)
 
-# Run Button
 run_button = ttk.Button(content_frame, text='Run', command=run_button_click)
 run_button.grid(row=2, column=0, columnspan=2, padx=5, pady=10)
 
-# Output Text
 output_text = tk.Text(root, width=60, height=10, font=('SF Pro', 12))
 output_text.pack(padx=20, pady=(0, 20))
 
-# Command Info Button
 command_info_button = ttk.Button(root, text='Command Info', command=show_command_info)
 command_info_button.pack()
 
