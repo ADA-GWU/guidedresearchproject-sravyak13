@@ -21,5 +21,6 @@
       <li>reviews/submitter/ - holds the reviews that I am receiving</li>
     </ul>
   </li>
+  <li>slides/ - all drafts of the presentation slides are stored here</li>
 </ul>
 
