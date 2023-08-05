@@ -1,6 +1,6 @@
 <h2>Unix Commands GUI</h2>
 <p>The Unix Commands GUI is a Python-based graphical user interface that allows you to execute various Unix commands using a user-friendly interface. This README provides instructions on how to use the GUI effectively.</p>
-<h3>Getting Started</h3> 
+<h3>Getting Started </h3> 
 <p>To use the Unix Commands GUI, follow these steps:</p>
 <ol>
   <li>
