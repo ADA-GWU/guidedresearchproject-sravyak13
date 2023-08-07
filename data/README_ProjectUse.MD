@@ -30,6 +30,7 @@
 </ol>
 <h3>Caution</h3>
 <p>This GUI is designed to execute basic Unix commands. Be cautious while running commands that modify or delete files/directories, as there is no confirmation prompt, and the actions will be performed immediately.</p>
+<p>Due to the way certain commands that are used for viewing files process different extensions, be careful to test on files that are not.txt.</p>
 <h3>Exiting the GUI</h3>
 <p>To exit the GUI, simply close the main window or any other open window. You can use the close button (usually an "X" in the top right corner) to do this.</p>
 <p>Now you are ready to use the Unix Commands GUI to perform various Unix commands and file operations in a simple and intuitive way. Enjoy!</p> 
